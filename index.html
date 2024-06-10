@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Musify</title>
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/utility.css" />
   </head>
   <body>
     <div class="container cont flex item-row">
-      <!-- Left -->
-
+      <!--[[[ Left ]]]-->
       <!-- Home -->
       <div class="left flex item-col flex item-col item-center">
-        <div class="home flex item-col item-center justify-start border">
+        <div class="home border-curve flex item-col item-center justify-start border">
+          <img src="./assets/logo.svg" alt=""  id="logo">
           <div class="hm flex item-center justify-start border">
             <img src="./assets/home.svg" alt="" width="20px" />
             <span>Home</span>
@@ -26,18 +26,40 @@
 
         
         <!-- Library -->
-        <div class="library flex border">
-          <div class="lib-top flex item-row item-center justify-start">
-            <div class="lib-left">
+        <div class="library border border-curve">
+          <div class="my-lib flex item-row ">
+            <div class="lib flex item-center justify-start border">
               <img src="./assets/library.svg" alt="" width="20px" />
               <span>Your Library</span>
             </div>
-            <div class="lib-right"></div>
+            <div class="ico flex border ">
+              <div class="b">
+
+                <img src="./assets/plus.svg" alt="" width="20px">
+              </div>
+              <div class="c">
+
+                <img src="./assets/right.svg" alt="" width="20px">
+              </div>
+            </div>
+          </div>
+
+          <!-- Capsules -->
+          <div class="capsules flex item-row">
+            <div class="capsule   border-curve">
+              <span>Playlists</span>
+            </div>
+            <div class="capsule   border-curve">
+              <span>Artists</span>
+            </div>
+            <div class="capsule   border-curve">
+              <span>Albums</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Right -->
+      <!--[[[ Right ]]]-->
       <div class="right item-center">dummy</div>
     </div>
   </body>
