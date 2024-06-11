@@ -101,6 +101,6 @@ Let's chat! Feel free to reach out using any of the methods below:
 
 **Social Media:**
 
-*  [Instagram]("https://instagram.com/mukulownsyou")
+*  [Instagram](https://instagram.com/mukulownsyou)
   
-*  [Twitter]("https://x.com/mukulownsyou")
+*  [Twitter](https://x.com/mukulownsyou)
