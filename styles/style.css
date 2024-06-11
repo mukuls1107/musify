@@ -1,6 +1,7 @@
 :root {
     --box-color: #121212;
     --bg-color: black;
+    --text-color: #a9a3a3;
 }
 
 
@@ -12,8 +13,17 @@
 
 body {
     background-color: var(--bg-color);
-    color: white;
     font-family: Arial, sans-serif;
+}
+
+span {
+    color: var(--text-color);
+    transition: all .3s ease;
+}
+
+span:hover {
+    color: #ffffff;
+    transition: all .3s ease-in;
 }
 
 .left,
@@ -101,13 +111,13 @@ span:hover {
     gap: 12px;
 }
 
-.my-lib{
+.my-lib {
     width: 20vw;
     display: flex;
     justify-content: space-between;
 }
 
-.ico{
+.ico {
     margin: 10px;
     padding: 10px;
     width: 30%;
@@ -116,18 +126,72 @@ span:hover {
     gap: 0.6rem;
 }
 
-.ico img:hover{
+.ico img:hover {
     cursor: pointer;
 }
 
 
-.capsule{
+.capsule {
     height: 1.6rem;
     display: flex;
     align-items: center;
     gap: 0.6rem;
     margin: 10px;
     padding: 10px;
-    border: 1px solid whitesmoke;
+    /* border: 1px solid whitesmoke; */
     text-align: center;
+    background-color: #232323;
+}
+
+.capsule span {
+    flex-wrap: wrap;
+}
+
+.playlist {
+    height: 62vh;
+    margin: 6px;
+    width: 96%;
+}
+
+.item{
+    margin: 6px;
+    width: 90%;
+    height: 12%;
+    width: 95%;
+    transition: all 0.3s ease;
+    /* padding: 3px; */
+}
+
+.item:hover{
+    background-color: #232323;
+    transition: all 0.3s ease;
+}
+.pl-img{
+    margin: 10px;
+    width: 17%;
+    /* padding: 3px; */
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
+
+.pl-img img{
+    border-radius: 3px;
+}
+
+.pl-text{
+    margin: 10px;
+    width: 15vw;
+    padding: 3px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+span.pl-sp-bl{
+    font-weight: 600;
+    font-size: 16px;
+}
+span.pl-sp-li{
+    font-weight: 300;
 }

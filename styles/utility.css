@@ -2,9 +2,10 @@
     border: 1px solid red;
 }
 
-.border-curve{
+.border-curve {
     border-radius: 12px;
 }
+
 .flex {
     display: flex;
 }
@@ -12,12 +13,15 @@
 .item-center {
     align-items: center;
 }
+.item-start{
+    align-items: flex-start;
+}
 
 .justify-content {
     justify-content: center;
 }
 
-.justify-start{
+.justify-start {
     justify-content: flex-start;
 }
 
@@ -31,6 +35,10 @@
 
 .gap-sl {
     gap: 0.6rem;
+}
+
+.cont {
+    max-width: 1500px;
 }
 
 .container {
