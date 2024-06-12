@@ -153,7 +153,7 @@ span:hover {
     width: 96%;
 }
 
-.item{
+.item {
     margin: 6px;
     width: 90%;
     height: 12%;
@@ -162,11 +162,12 @@ span:hover {
     /* padding: 3px; */
 }
 
-.item:hover{
+.item:hover {
     background-color: #232323;
     transition: all 0.3s ease;
 }
-.pl-img{
+
+.pl-img {
     margin: 10px;
     width: 17%;
     /* padding: 3px; */
@@ -176,11 +177,11 @@ span:hover {
     height: 80%;
 }
 
-.pl-img img{
+.pl-img img {
     border-radius: 3px;
 }
 
-.pl-text{
+.pl-text {
     margin: 10px;
     width: 15vw;
     padding: 3px;
@@ -188,15 +189,16 @@ span:hover {
     padding-top: 8px;
 }
 
-span.pl-sp-bl{
+span.pl-sp-bl {
     font-weight: 600;
     font-size: 16px;
 }
-span.pl-sp-li{
+
+span.pl-sp-li {
     font-weight: 300;
 }
 
-.profile{
+.profile {
     width: 99%;
     height: 8vh;
     margin: 6px 3px;
@@ -205,27 +207,28 @@ span.pl-sp-li{
     align-items: center;
 }
 
-.profile :nth-child(1){
+.profile :nth-child(1) {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.pro-circle{
+.pro-circle {
     margin: 6px;
     height: 2.2rem;
     width: 2.2rem;
 }
-.pro-img> img{
+
+.pro-img>img {
     width: 32px;
-    border-radius:15px ;
+    border-radius: 15px;
 }
 
-.pro-circle> img:hover{
+.pro-circle>img:hover {
     cursor: pointer;
 }
 
-.music-cards{
+.music-cards {
     /* height:80vh; */
     /* width: 40vw; */
     margin: 12px;
@@ -235,7 +238,7 @@ span.pl-sp-li{
 
 
 
-.card{
+.card {
     margin: 10px 20px;
     width: 20%;
     display: flex;
@@ -245,17 +248,43 @@ span.pl-sp-li{
     color: white;
     padding: 16px;
     background-color: #232423;
-    border-radius:15px ;
+    border-radius: 15px;
+    position: relative;
 
 }
 
-.card> *{
+.card>* {
     padding-top: 6px;
 
 }
-.card img{
-    width: 100%;
-    object-fit: contain ;
-    border-radius:15px ;
 
+.card img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+
+}
+
+.play {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-color: #1FDF64;
+    border-radius: 50%;
+    /* border: 2px solid #000; */
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 180px;
+    right: 32px;
+    opacity: 0;
+
+}
+
+.card:hover > .play{
+    top: 162px;
+    opacity: 1;
+    transition: all .5s ease-in;
+    cursor: pointer;
 }
